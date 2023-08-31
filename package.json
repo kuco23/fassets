@@ -12,7 +12,7 @@
   "directories": {},
   "scripts": {
     "---------HOOKS": "",
-    "postinstall": "echo Running install in flare-smart-contracts... && cd node_modules/flare-smart-contracts && yarn",
+    "--postinstall": "echo Running install in flare-smart-contracts... && cd node_modules/flare-smart-contracts && yarn",
     "prepare": "yarn flatten-dependencies node_modules/flare-smart-contracts scripts/flatten-files.txt flattened/FlareSmartContracts.sol scripts/flatten-extra-imports.txt",
     "---------TEST---SCRIPTS": "",
     "test": "yarn hardhat test",
